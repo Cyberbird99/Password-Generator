@@ -2,11 +2,11 @@ import random
 import string
 
 
-def generate_random_string(length: int=15):
+def generate_random_string(password_length: int=15):
     # Define the character pool (letters, digits, and punctuation)
     character_pool = string.ascii_letters + string.digits + string.punctuation
     # Generate a random password using the character pool
-    generated_password = "".join(random.choice(character_pool) for i in range(length))
+    generated_password = "".join(random.choice(character_pool) for i in range(password_length))
     return generated_password
 
 # Generate a random password
