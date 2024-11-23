@@ -6,7 +6,7 @@ Inside the function is a chracter_pool which combines letters, digits and some s
 
 password_gnerator_complex.py is much improved with these key features:
 
-instead of random library, secrets library is used which is more secure than using random.choice() for generating passwords, as secrets is specifically designed for cryptographic security.
+Instead of random library, secrets library is used which is more secure than using random.choice() for generating passwords, as secrets is specifically designed for cryptographic security.
 
 Password Strength Check: The password generator ensures that at least one character from each category (uppercase, lowercase, digit, punctuation) is included. This increases password strength.
 
